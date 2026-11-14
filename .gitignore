@@ -1,0 +1,38 @@
+# JetBrains IDE settings
+.idea/
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache and generated files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Test, coverage, and build artifacts
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+build/
+dist/
+*.egg-info/
+
+# Jupyter temporary files and checkpoints
+.ipynb_checkpoints/
+
+# Local environment and secret configuration
+.env
+.env.*
+!.env.example
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
